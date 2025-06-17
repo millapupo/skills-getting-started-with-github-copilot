@@ -77,7 +77,14 @@ section h3 {
 .activity-card .participants {
   margin-top: 15px;
   padding-top: 12px;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #eee;
+  background-color: #fafafa;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.activity-card .participants p strong {
+  color: #1a237e;
 }
 
 .activity-card .participants ul {
@@ -87,17 +94,18 @@ section h3 {
 }
 
 .activity-card .participants li {
-  color: #666;
+  color: #555;
   font-size: 0.9em;
-  padding: 3px 0;
+  padding: 4px 0;
   position: relative;
 }
 
 .activity-card .participants li:before {
   content: "•";
-  color: #1a237e;
+  color: #3949ab;
   position: absolute;
   left: -15px;
+  font-weight: bold;
 }
 
 .form-group {
